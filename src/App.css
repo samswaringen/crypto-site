@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'mars';
+  src: url(MarsMission-Ajpg.ttf);
+}
+html {
+  background-image: url('./moon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  background-image: url('./moon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+#navbar {
+  position: fixed;
+  display:grid;
+  margin-right: -10px;;
+  grid-template-columns: 10vw;
+  grid-template-rows: repeat(8, 1fr);
+  top: 25vh;
+  width: 13vw;
+  z-index: 4;
+  background-color: rgb(0,0,0,.1);
+  
+}
+#title-div {
+  position: fixed;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height:20%;
+  top:0;
+  font-family: 'baufra';
+  z-index: 5;
+}
+#component-div {
+  position: relative;
+  
+  left: 15vw;
+  top:25vh;
+  width:85vw;
+  z-index: 3;
+}
+.home-div {
+  grid-row: 1 / 2;
+}
+.search-div {
+  grid-row:2 / 3 ;
+}
+.list-div {
+  grid-row: 3 / 4;
+}
+.forums-div {
+  grid-row: 4 / 5;
+}
+.signin-div,
+.chats-div{
+  grid-row: 5 / 6;
+}
+.signup-div,
+.profile-div{
+  grid-row: 6 / 7;
+}
+
+.logout-div {
+  grid-row: 7 / 8;
+}
+.home-div,
+.list-div,
+.forums-div,
+.signin-div,
+.chats-div,
+.signup-div,
+.profile-div,
+.logout-div{
+  padding-left: 20px;
+}
+
+#search-input {
+  position: relative;
+  left:15px;
+  width:120px;
+}
+#search-button{
+  position: relative;
+  left: 20px;
+  width:50px;
+  margin-left:-5px;
+  text-align: center;
+}
+.main-nav-item {
+  color: white;
+  font-size: 20px;
+  font-family: 'mars';
+  width:200px;
+}
+.main-nav-item:hover {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+  font-size: 23px;
+}
+#activeUser-div {
+  position: relative;
+  padding-top:10px;
+  left: 81%;
+  top:-140px;
+  width: 15%;
+  height: 85%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgb(0,0,0,0.6);
+}

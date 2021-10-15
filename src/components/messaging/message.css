@@ -1,0 +1,68 @@
+#message-home {
+    position: relative;
+    top:-1.5vh;
+    left: -1vw;
+    height: 70vh;
+    width:80vw;
+    background-color: rgb(0,0,0,0.5);
+  }
+  .coin-name-div{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap:5px;
+    width: 83.5vw;
+    height:72vh;
+  }
+  .name-button {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #forum-div{
+    position: relative;
+    left: -1.7vw;
+    top:-1.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .forum-title {
+    color: white;
+    line-height: 5vh;
+    height:7vh;
+    font-size: 5vh;
+  }
+  .thread-title,
+  .post-div {
+    color:white;
+    padding:5px 10px;
+    border-bottom: 1px solid white;
+  }
+  .new-thread-btn {
+    position: relative;
+    font-size: 1em;
+    line-height: 2em;
+  }
+  .new-thread-modal {
+    position: absolute;
+    top:10%;
+    left:40%;
+  }
+  #coin-post-nav {
+    height:8vh;
+  }
+  .post-author-span{
+    position: absolute;
+    left:60vw;
+  }
+  .post-title-span {
+    position: relative;
+    left:5vw;
+  }
+  .reply-div {
+    color: white;
+  }
